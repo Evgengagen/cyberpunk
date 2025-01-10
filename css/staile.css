@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Archangelsk";
+  src: url("../fonts/archangelsk.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/archangelsk.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/archangelsk.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/archangelsk.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/archangelsk.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/archangelsk.svg#archangelsk")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v32-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
