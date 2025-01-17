@@ -9,6 +9,13 @@
     /* Safari, Android, iOS */ url("../fonts/archangelsk.svg#archangelsk")
       format("svg"); /* Chrome < 4, Legacy iOS */
 }
+@font-face {
+  font-family: "Archangelsk";
+  src: url("https://fontsforyou.com/fonts/a/Archangelsk.ttf");
+}
+.your-style {
+  font-family: "Archangelsk";
+}
 
 /* roboto-regular - latin */
 @font-face {
@@ -47,13 +54,14 @@ body {
   max-width: 1920px;
   margin: 0 auto;
 }
-/*Header styles start*/
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
+
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +69,7 @@ body {
   justify-content: space-between;
   margin-top: 20px;
 }
+
 .header_logo {
   display: flex;
   align-items: center;
@@ -95,6 +104,21 @@ body {
   height: 100vh;
   background: url(../img/11.jpg) no-repeat center;
   background-size: cover;
+  padding: 0px;
+  background-attachment: fixed;
+}
+.intro_banner {
+  background-color: #f8f200;
+  width: 624px;
+  height: 369px;
+  margin: 631px;
+}
+.intro_text {
+  font-family: "Archangelsk";
+  font-style: normal;
+  font-size: 62px;
+  font-weight: 400;
+  color: #000000;
 }
 
 /*Intro styles end*/
