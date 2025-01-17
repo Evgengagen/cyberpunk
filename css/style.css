@@ -102,10 +102,11 @@ body {
 /*Intro styles start*/
 .intro {
   height: 100vh;
-  background: url(../img/11.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../img/11.jpg);
+  background-size: 100%;
   padding: 0px;
   background-attachment: fixed;
+  background-position: center;
 }
 .intro_banner {
   background-color: #f8f200;
