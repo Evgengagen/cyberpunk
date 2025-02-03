@@ -92,7 +92,6 @@ html {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll;
 }
 
 .container_intro {
@@ -106,10 +105,16 @@ html {
   padding: 0px;
   display: flex;
   align-items: center;
+
   position: absolute;
   bottom: 0;
   top: auto;
   right: 0;
+
+  position: relative;
+  top: 631px;
+  left: 976px;
+
   clip-path: polygon(
     2vw 0,
     100% 0,
@@ -132,6 +137,7 @@ html {
 }
 .intro_button {
   font-family: "Roboto" sans-serif;
+
   width: 272px;
   height: 78px;
   font-style: normal;
@@ -147,7 +153,9 @@ html {
 }
 
 button.intro_button:hover {
+
   background-color: #00000099;
+
 }
 /*Intro styles end*/
 
