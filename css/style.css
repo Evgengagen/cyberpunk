@@ -1,45 +1,30 @@
 @font-face {
-  font-family: "Archangelsk";
-  src: url("../fonts/archangelsk.eot"); /* IE 9 Compatibility Mode */
-  src: url("../fonts/archangelsk.eot?#iefix") format("embedded-opentype"),
-    /* IE < 9 */ url("../fonts/archangelsk.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/archangelsk.woff") format("woff"),
-    /* Firefox >= 3.6, any other modern browser */
-      url("../fonts/archangelsk.ttf") format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/archangelsk.svg#archangelsk")
-      format("svg"); /* Chrome < 4, Legacy iOS */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
   font-family: "Archangelsk";
-  src: url("https://fontsforyou.com/fonts/a/Archangelsk.ttf");
-}
-.your-style {
-  font-family: "Archangelsk";
+  src: url("../fonts/ofont.ru_Archangelsk.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-/* roboto-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* roboto-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/roboto-v32-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
 html {
   box-sizing: border-box;
 }
 *,
 *::before,
-body {
-  font-family: "Archangelsk", "Roboto", sans-serif;
+.body {
+  font-family: "Archangelsk", "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -50,13 +35,15 @@ body {
   box-sizing: inherit;
 }
 
-.wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
+.container {
+  width: 1280px;
+  margin: 0 auto 0 auto;
+  display: block;
+  position: relative;
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -73,7 +60,7 @@ body {
 .header_logo {
   display: flex;
   align-items: center;
-  margin-left: 320px;
+  padding-top: 20px;
 }
 .header_logo-pic {
   width: 296px;
@@ -83,14 +70,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 .header_item {
   margin-right: 70px;
 }
 .header_item:last-child {
-  margin-right: 320px;
+  margin-right: 0;
 }
 .header_link:hover,
 .header_link:focus,
@@ -101,12 +86,25 @@ body {
 
 /*Intro styles start*/
 .intro {
+<<<<<<< HEAD
   height: 100vh;
   background: url(../img/11.jpg) no-repeat center center;
+=======
+  height: 52vw;
+  background: url(/img/Первый\ блок/11.jpg) no-repeat center center;
+>>>>>>> 438ad8f9a24c6a48e285558f4ed797b59434ae38
   padding: 0px;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+<<<<<<< HEAD
+=======
+  background-attachment: scroll;
+}
+
+.container_intro {
+  height: 100%;
+>>>>>>> 438ad8f9a24c6a48e285558f4ed797b59434ae38
 }
 .intro_banner {
   background-color: #f8f200;
@@ -116,9 +114,16 @@ body {
   padding: 0px;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   position: relative;
   top: 631px;
   left: 976px;
+=======
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  right: 0;
+>>>>>>> 438ad8f9a24c6a48e285558f4ed797b59434ae38
   clip-path: polygon(
     2vw 0,
     100% 0,
@@ -140,8 +145,12 @@ body {
   right: 70px;
 }
 .intro_button {
+<<<<<<< HEAD
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+=======
+  font-family: "Roboto" sans-serif;
+>>>>>>> 438ad8f9a24c6a48e285558f4ed797b59434ae38
   width: 272px;
   height: 78px;
   font-style: normal;
@@ -157,6 +166,52 @@ body {
 }
 
 button.intro_button:hover {
+<<<<<<< HEAD
   background-color: #333;
+=======
+  background-color: #00000099;
+>>>>>>> 438ad8f9a24c6a48e285558f4ed797b59434ae38
 }
 /*Intro styles end*/
+
+/*Night-city start*/
+.night_city {
+  background-color: #ffffff;
+  max-height: 777px;
+}
+
+.night_city_h2 {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  padding-top: 7%;
+}
+.night_city_p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  max-width: 952px;
+  max-height: 125px;
+  padding-top: 25px;
+}
+.ceber_strong {
+  text-decoration: none;
+}
+.cyberpunk_strong {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  color: #2f00ff;
+}
+.container_img {
+  display: flex;
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 7%;
+}
+.container_city_img {
+  display: block;
+}
+img:first-child {
+  margin-bottom: 31px;
+}
+/*Night-city end*/
