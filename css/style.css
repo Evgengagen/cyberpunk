@@ -5,7 +5,7 @@ html {
 *,
 *::before,
 .body {
-  font-family: "Archangelsk", "Roboto";
+  font-family: "Archangelsk", "Roboto" sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -68,7 +68,7 @@ html {
 /*Intro styles start*/
 .intro {
   height: 52vw;
-  background: url(/img/svg/11\ \(2\).svg) no-repeat center center;
+  background: url(/img/firstBlock/firstBackground.svg) no-repeat center center;
   padding: 0px;
   background-attachment: fixed;
   background-size: cover;
@@ -147,10 +147,11 @@ button.intro_button:hover {
 .night_city_p {
   font-family: "Roboto";
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   max-width: 952px;
   max-height: 125px;
   padding-top: 25px;
+  
 }
 .cyber_strong {
   text-decoration: none;
@@ -330,7 +331,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   color: #ffffff;
   font-size: 18px;               
   font-weight: 300;
