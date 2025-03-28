@@ -5,11 +5,7 @@ html {
 *,
 *::before,
 .body {
-<<<<<<< HEAD
-  font-family: "Archangelsk", "Roboto", "sans-serif"; 
-=======
-  font-family: "Archangelsk", "Roboto" sans-serif;
->>>>>>> 44fd34f8dd5de8d363173b53cb0607e0f71db165
+  font-family: "Archangelsk", "Roboto", "sans-serif";
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
