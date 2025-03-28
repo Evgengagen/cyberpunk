@@ -192,12 +192,15 @@ button.intro_button:hover {
   height: 884px;
 }
 .line{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent; 
-  overflow: hidden;
-  
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+}
+.line img{
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
 
 .black-background{
@@ -382,11 +385,15 @@ justify-content: center;
   margin-left: 984px;
 }
 .line_end{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent; 
-  overflow: hidden;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+}
+.line_end img{
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
 
 /*Play and win end third block*/
