@@ -203,12 +203,6 @@ button.intro_button:hover {
   vertical-align: bottom;
 }
 
-.black-background{
-  height: 100%;
-  width: 100%;
-    background: black;
-
-}
 .play_and_win{
   max-height: 884px;
   position: relative;
