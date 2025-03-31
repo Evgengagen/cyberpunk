@@ -187,9 +187,8 @@ button.intro_button:hover {
 /*Night-city end second block*/
 
 /*Play and win start third block*/
-.container-background{
-  margin-top: 70px;
-  height: 884px;
+.third-section{
+  background: #000000;
 }
 .line{
   position: relative;
