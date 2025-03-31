@@ -377,16 +377,6 @@ justify-content: center;
   margin-top: 49px;
   margin-left: 984px;
 }
-.line_end{
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-}
-.line_end img{
-  width: 100%;
-  height: auto;
-  vertical-align: bottom;
-}
+
 
 /*Play and win end third block*/
