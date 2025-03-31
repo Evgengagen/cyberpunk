@@ -112,7 +112,7 @@ html {
   right: 70px;
 }
 .intro_button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto";
   width: 272px;
   height: 78px;
   font-style: normal;
@@ -201,25 +201,18 @@ button.intro_button:hover {
   height: auto;
   vertical-align: bottom;
 }
-
-.play_and_win{
-  max-height: 884px;
-  position: relative;
+.grid-container{
+  display: flex;
 }
-.win{
-  position: absolute;
-  font-family: "Archangelsk";
+.play-and-win{
+  margin-top: 70px;
+  margin-left: 32px;
+  font-family: "Archangelsk"; 
   font-size: 62px;
   color: #ffffff;
-  padding-left: 164px;
-  padding-top: 70px;
 }
 .star-img{
-  width: 132px;
-  height: 132px;
-  padding: 0;
-  margin: 0;
-  padding-top: 15px;
+  margin-top: 15px;
 }
 .play_Cyberpunk2077{
 max-width: 952px;
@@ -327,7 +320,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto";
   color: #ffffff;
   font-size: 18px;               
   font-weight: 300;
